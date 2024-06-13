@@ -4,21 +4,30 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
+html, body {
     background-color: #5f2c82;
 }
 
-#formulario {
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login {
     background-color: white;
     line-height: 1.3em;
     text-align: center;
-    width: 300px;
-    height: 350px;
-    border-radius: 10px;
-    position: relative;
-    top: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 45%;
     left: 50%;
     transform: translate(-50%, 50%);
 }
@@ -26,13 +35,15 @@ body {
 #mail {
     background-color: #5f2c82;
     color: white;
-    width: 50px;
+    text-align: center;
+    width: 40px;
     border-radius: 10px;
 }
 
 #pass {
     background-color: #5f2c82;
     color: white;
+    text-align: center;
     width: 50px;
     border-radius: 10px;
 }
@@ -44,6 +55,17 @@ h1 {
 p {
     text-indent: 5px;
     margin: 10px;
+}
+
+#formulario {
+    display: block;
+}
+
+ .imagem {
+    background: #5f2c82 url(../imagens/pexels-miles-bennett-1330893390-25524044.jpg) no-repeat center top;
+    display: block;
+    background-size: cover; 
+    height: 200px;
 }
 
 
