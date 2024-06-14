@@ -27,9 +27,11 @@ section {
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    bottom: 45%;
+    bottom: 47%;
     left: 50%;
     transform: translate(-50%, 50%);
+    transition: width .2s heigth .2s;
+    
 }
 
 #mail {
