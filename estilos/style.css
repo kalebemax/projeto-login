@@ -74,12 +74,12 @@ form > .campo input {
     background-color: #94cfcd;
     display: block;
     width: calc(100% - 30px);
-    transform: translateY(-28px);
     height: 35px;
     font-size: 1em;
     border: 0px;
     border-radius: 5px;
     padding: 5px;
+    transform: translateY(-28px);
 }
 
 form input[type=submit] {
@@ -96,7 +96,7 @@ form input[type=submit] {
 }
 
 form input[type=submit]:hover {
-    background-color: #459b98;
+    background-color: #492263;
 }
  
 .imagem {
